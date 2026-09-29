@@ -9,6 +9,8 @@ este repositorio desde la rama `main`.
 el menú móvil y la compatibilidad con los enlaces anteriores. La dirección
 visual usa fondo marfil, la paleta del estudio y animaciones ligeras en CSS/SVG.
 El control de pausa y la preferencia de movimiento reducido permiten desactivarlas.
+La sección `#clientes` presenta los clientes y partners del estudio, con sus
+proyectos y tipo de colaboración, en español e inglés.
 No necesita compilación ni instalar dependencias para funcionar.
 
 ## Vista pública en Sites

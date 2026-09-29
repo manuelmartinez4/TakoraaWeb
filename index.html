@@ -31,7 +31,7 @@
       document.querySelector('meta[name="theme-color"]').content = theme === 'dark' ? '#081120' : '#f7f6f2';
     })();
   </script>
-  <link rel="stylesheet" href="/studio.css?v=preferences-1">
+  <link rel="stylesheet" href="/studio.css?v=clients-1">
   <script src="/studio.js?v=preferences-1" defer></script>
   <script type="application/ld+json">
     {
@@ -86,6 +86,7 @@
       <nav class="site-nav" id="site-nav" aria-label="Navegación principal" data-en-aria-label="Main navigation">
         <a href="#servicios" data-en="What we build">Qué construimos</a>
         <a href="#como-trabajamos" data-en="How we work">Cómo trabajamos</a>
+        <a href="#clientes" data-en="Clients">Clientes</a>
         <a class="nav-contact" href="#contacto"><span data-en="Let’s talk">Hablemos</span> <svg aria-hidden="true"><use href="#icon-arrow"/></svg></a>
         <button class="motion-toggle" type="button" aria-label="Pausar animaciones" title="Pausar animaciones" hidden><span class="pause-icon" aria-hidden="true"></span><span class="motion-label">Pausar animaciones</span></button>
       </nav>
@@ -184,6 +185,44 @@
         </ol>
       </div>
       <div class="carousel-hint shell"><span data-en="Drag or swipe to get to know us">Arrastrá o deslizá para conocernos un poco más</span><span class="carousel-hint-arrows" aria-hidden="true"><svg class="arrow-left"><use href="#icon-arrow"/></svg><svg><use href="#icon-arrow"/></svg></span></div>
+    </section>
+
+    <section class="clients section-space shell" id="clientes" aria-labelledby="clients-title" tabindex="-1">
+      <div class="clients-heading reveal">
+        <div>
+          <p class="eyebrow" data-en="WHO WE WORK WITH">CON QUIÉNES TRABAJAMOS</p>
+          <h2 id="clients-title"><span data-en="Clients &amp; ">Clientes y </span><em>partners.</em></h2>
+        </div>
+        <p class="section-description" data-en="Teams we work with today: custom development, technology partnerships, and AI consulting.">Equipos con los que trabajamos hoy: desarrollo a medida, partnerships tecnológicos y consultoría de IA.</p>
+      </div>
+      <div class="clients-grid">
+        <article class="client-card client-wealth reveal" aria-labelledby="client-wealth-title">
+          <div class="client-top"><p class="eyebrow">WEALTH MANAGEMENT</p><svg aria-hidden="true"><use href="#icon-chart"/></svg></div>
+          <h3 id="client-wealth-title">Buena Vista Wealth Management</h3>
+          <p class="client-description" data-en="Two custom development projects for the firm, including its advisors’ portfolio reporting dashboard: valuation, TWR, real return, and PDF reports.">Dos proyectos de desarrollo a medida para la firma, entre ellos el dashboard de reportes de cartera de sus asesores: valuación, TWR, retorno real y reporte en PDF.</p>
+          <p class="client-note" data-en="We also operate and maintain the software the firm already uses.">Además, operamos y mantenemos el software que la firma ya usa.</p>
+          <div class="client-footer"><span class="client-status" data-en="Technology partner">Partner tecnológico</span></div>
+        </article>
+        <article class="client-card client-events reveal" aria-labelledby="client-events-title">
+          <div class="client-top"><p class="eyebrow" data-en="EVENT PRODUCTION">PRODUCCIÓN DE EVENTOS</p><svg aria-hidden="true"><use href="#icon-flower"/></svg></div>
+          <h3 id="client-events-title">Golden Mood Producciones</h3>
+          <p class="client-description" data-en="Technology partner of the production company behind After Mood. We build the system that measures event sponsors’ ROI: branded QR codes for each sponsor, contact classification, and a metrics dossier for each edition.">Tech partner de la productora detrás de After Mood. Construimos el sistema que mide el ROI de los sponsors del evento: QR con branding propio por sponsor, clasificación de contactos y dossier de métricas por edición.</p>
+          <p class="client-note" data-en="Takoraa is the main sponsor of edition 06.">Takoraa es main sponsor de la edición 06.</p>
+          <div class="client-footer"><span class="client-status" data-en="Technology partner">Partner tecnológico</span></div>
+        </article>
+        <article class="client-card client-ai reveal" aria-labelledby="client-ai-title">
+          <div class="client-top"><p class="eyebrow" data-en="ARTIFICIAL INTELLIGENCE">INTELIGENCIA ARTIFICIAL</p><svg aria-hidden="true"><use href="#icon-agent"/></svg></div>
+          <h3 id="client-ai-title">WIP Club</h3>
+          <p class="client-description" data-en="Ongoing artificial intelligence consulting and end-to-end implementation of AI ecosystems.">Consultoría activa de inteligencia artificial e implementación de ecosistemas de IA de punta a punta.</p>
+          <div class="client-footer"><span class="client-status" data-en="Consulting">Consultoría</span></div>
+        </article>
+        <article class="client-card client-health reveal" aria-labelledby="client-health-title">
+          <div class="client-top"><p class="eyebrow" data-en="HEALTHCARE">SALUD</p><svg aria-hidden="true"><use href="#icon-app"/></svg></div>
+          <h3 id="client-health-title">CPRE · Dr. Pablo Reta</h3>
+          <p class="client-description" data-en="An autonomous operating room booking system for the medical team, currently in active development.">Sistema autónomo de reserva de quirófanos para el equipo médico, en desarrollo activo.</p>
+          <div class="client-footer"><span class="client-status client-status-progress"><span class="client-status-dot" aria-hidden="true"></span><span data-en="In development">En desarrollo</span></span></div>
+        </article>
+      </div>
     </section>
 
     <section class="contact" id="contacto" aria-labelledby="contact-title" tabindex="-1">
