@@ -156,9 +156,13 @@
     const flowerButton = scene.querySelector('.flower-toy');
     if (flowerButton) {
       let flowerTurn = 0;
+      let flowerClicks = 0;
+      const surpriseBird = document.querySelector('.surprise-bird');
       flowerButton.addEventListener('click', () => {
         flowerTurn += 225;
         scene.style.setProperty('--flower-turn', flowerTurn + 'deg');
+        flowerClicks += 1;
+        if (flowerClicks === 30 && surpriseBird) surpriseBird.hidden = false;
       });
       flowerButton.hidden = false;
     }
