@@ -169,7 +169,7 @@ ol, ul { list-style: none; margin: 0; padding: 0; }
 .flower-toy > span svg { width: 28%; height: 28%; }
 .flower-toy:hover > svg { filter: drop-shadow(6px 12px 0 #d36b4e); }
 body.surprise-unlocked { isolation: isolate; }
-body.surprise-unlocked::before { content: ""; position: fixed; inset: 0; z-index: -1; background: url('/assets/surprise-bird.png') center 35% / cover no-repeat; pointer-events: none; }
+body.surprise-unlocked::before { content: ""; position: fixed; inset: 0; z-index: -1; background: url('/assets/surprise-bird.png') center top / cover no-repeat; pointer-events: none; }
 .demo-controls { position: absolute; left: 50%; bottom: 25px; z-index: 10; display: flex; align-items: center; gap: 4px; background: #fff; padding: 5px; border-radius: 40px; transform: translateX(-50%); box-shadow: 0 5px 18px #20113313; }
 .demo-controls button { min-height: 44px; padding: 0 18px; border: 0; border-radius: 30px; background: transparent; font-size: 12px; transition: color 180ms, background 180ms; }
 .demo-controls button[aria-pressed="true"] { color: white; background: var(--ink); }
