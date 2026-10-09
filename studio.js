@@ -161,7 +161,7 @@
         flowerTurn += 225;
         scene.style.setProperty('--flower-turn', flowerTurn + 'deg');
         flowerClicks += 1;
-        if (flowerClicks === 30) document.body.classList.add('surprise-unlocked');
+        if (flowerClicks === 100) document.body.classList.add('surprise-unlocked');
       });
       flowerButton.hidden = false;
     }
